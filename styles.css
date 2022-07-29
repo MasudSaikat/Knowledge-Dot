@@ -1,7 +1,15 @@
-@media only screen and (max-width: 768px) {
+ /* For mobile phones: */
+ @media only screen and (max-width: 768px) {
 
-    /* For mobile phones: */
-    #mobile-res {
-        display: block;
-    }
-}
+     #mobile {
+         display: block;
+     }
+ }
+
+ /* display none for smaller devices */
+ @media only screen and (max-width:1200px) {
+
+     .dot-container {
+         display: none;
+     }
+ }
