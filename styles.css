@@ -1,6 +1,7 @@
-#carouselExampleDark .carousel-item img {
-    object-fit: cover;
-    object-position: center;
-    height: 50vh;
-    overflow: hidden;
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #mobile-res {
+        display: block;
+    }
 }
